@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--css-->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header id="cabecalho">
+        <h1>Compras</h1>
+    </header>
+
+    <div id="container">
+        <main>
+            <div id="compras">
+                <table id="tabela">
+                    <tr>
+                        <th>Nome</th>
+                        <th>Quantidade</th>
+                        <th>Valor Unitário</th>
+                        <th>Valor total</th>
+                        <th>Remover</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input class="input" type="text" id="descricao">
+                        </td>
+                        <td>
+                            <input class="input" type="text" id="quantidade">
+                        </td>
+                        <td>
+                            <input class="input" type="number" id="valorUnitario">
+                        </td>
+                        <td>
+                            <input class="input" type="number" id="valorTotal">
+                        </td>
+                        <td class="input">
+                            #
+                        </td>
+                    </tr>
+
+
+                </table>
+            </div>
+
+            <div id="resumo">
+                <table>
+                    <h2>Resumo</h2>
+                    <th>Total Compras <input type="text" disabled></th>
+                    <th>Pago <input type="text" disabled></th>
+                    <th>Restante <input type="text" disabled></th>
+                </table>
+            </div>
+        </main>
+    </div>
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
